@@ -1,0 +1,93 @@
+body {
+	color: white;
+	animation: colorchange 60s infinite;
+  margin: 0px;
+}
+*{
+	text-align: center;
+	overflow-x: hidden;
+
+font-family: Brush Script MT,cursive; 
+font-size: 50px;
+}
+a {
+	color: white;
+}
+#veggie{ 
+color: black; }
+
+
+
+h1{
+	font-size: 670px;
+	text-align: center;
+	margin: auto;
+
+}
+
+
+h1:hover{
+
+
+}
+@keyframes colorchange {
+     0%  {background: #33FFF3;}
+    15%  {background: #78281F;}
+    40%  {background: #117A65;}
+    65%  {background: #DC7633;}
+    90% {background: #9B59B6;}
+    100%  {background: #33FFF3;}
+}   
+
+.navbar {
+  background-color:black;
+  width: 100%
+}
+
+button {
+  color: black;
+}
+
+.pic1 {
+   background-position:center;
+    background-repeat:no-repeat;
+  background-image: url('https://images.pexels.com/photos/1265902/pexels-photo-1265902.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w');
+  margin: 0 auto;
+  /*background-size: 100% 100%;*/
+  min-height: 700px;
+}
+ .pic2{
+  background-image: url('https://images.pexels.com/photos/5921/wood-holiday-vacation-garden.jpg?cs=srgb&dl=camping-chair-container-5921.jpg&fm=jpg');
+ 
+   background-position:center;
+    background-repeat:no-repeat;
+min-height: 700px;
+width: 100%;
+
+ }
+
+.pic1, .pic2,.pic3{
+  position: relative;
+  opacity: 0.70;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
+
+.pic3{
+  background-image: url('https://images.pexels.com/photos/771079/pexels-photo-771079.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+   background-position:center;
+    background-repeat:no-repeat;
+min-height: 600px;
+
+ }
+h1:{  }
+#background3{
+  background-color:   #001f3f;
+}
+#background4{
+  color:#3c2;
+  background-color: #fdae84;
+}
+
+
